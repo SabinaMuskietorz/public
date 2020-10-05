@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>University of Northampton - Operating Systems</title>
+		<title>University of Northampton - Computing</title>
 		<link rel="stylesheet" href="uon.css" />
 	</head>
 
@@ -27,6 +27,7 @@
 					</ul>
 				</li>
 
+				</li>
 				<li>Year 3
 
 					<ul>
@@ -39,33 +40,3 @@
 			</ul>
 		</header>
 		<section></section>
-		<main>
-			<h1>CSY2002 Operating Systems</h1>
-
-<p>This year 2 module is designed to give an understanding of the principles, application, structure and design principles of operating systems.  The module requires a significant practical element delivered as formal laboratory sessions in which computer systems skills are acquired.
-</p>
-		</main>
-
-		<aside>
-
-			<ul>
-				<li>Year 2
-					<ul>
-						<li><a href="csy2001.html">CSY2001 Computer Networks</a></li>
-						<li><a href="csy2002.html">CSY2002 Operating Systems</a></li>
-						<li><a href="csy2006.html">CSY2006 Software Engineering 2</a></li>
-						<li><a href="csy2027.html">CSY2027 Group Project</a></li>
-					</ul>
-				</li>
-
-			</ul>
-
-		</aside>
-
-		<footer>
-			&copy; Small text at the bottom just because it seems necessary
-		</footer>
-
-	</body>
-
-</html>

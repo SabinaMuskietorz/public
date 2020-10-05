@@ -1,13 +1,5 @@
-<!doctype html>
-<html>
-	<head>
-		<title>University of Northampton - Real Time and and Embedded Systems</title>
-		<link rel="stylesheet" href="uon.css" />
-	</head>
+<aside>
 
-	<body>
-		<header>
-			<img src="logo.jpg" alt="logo" />
 			<ul>
 				<li>Year 1
 					<ul>
@@ -27,28 +19,7 @@
 					</ul>
 				</li>
 
-				<li>Year 3
-
-					<ul>
-						<li><a href="csy3010.html">CSY3010 Media Technology</a></li>
-						<li><a href="csy3013.html">CSY3013 Software Engineering 3</a></li>
-						<li><a href="csy3015.html">CSY3015 Real Time and and Embedded Systems</a></li>
-						<li><a href="csy4010.html">CSY4010 Computing dissertation</a></li>
-					</ul>
 				</li>
-			</ul>
-		</header>
-		<section></section>
-		<main>
-			<h1>CSY3015 Real Time and and Embedded Systems</h1>
-
-<p>This module is designed to give an indepth appreciation of the design, implementation and testing principles of embedded and real-time systems. Issues involved and complexities of the use of computers in embedded systems and interfacing with such devices. </p>
-		</main>
-
-		<aside>
-
-			<ul>
-
 				<li>Year 3
 
 					<ul>
