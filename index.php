@@ -1,7 +1,6 @@
 <?php
 require 'head.php';
 ?>
-<main>
 			<h1>Computing at the University of Northampton</h1>
 
 
@@ -11,7 +10,7 @@ require 'head.php';
 
 <p>We welcome all applicants to our courses, including international applications and applications from students with a range of non-traditional educational or professional qualifications.</p>
 
-        </main>
+
         <?php
 require 'foot.php';
 ?>
