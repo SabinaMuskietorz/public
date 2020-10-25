@@ -2,7 +2,7 @@
 
 <?php
 function drawSquare() {
-    $num = rand(!, 10);
+    $num = rand(1, 10);
     echo 'div class="square' . $num . '"></div>';
 }
 
