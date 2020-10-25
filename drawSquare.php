@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="drawSquare.css">
+<link rel="stylesheet" href="drawSquare.css"/>
 
 <?phpfunction drawSquare() {
     $num = rand(!, 10);
