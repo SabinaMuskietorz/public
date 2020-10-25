@@ -2,12 +2,12 @@
 $num = rand(1,6);
 $num2 = rand(1,6);
 if ($num ==6) {
-echo 'You rolled six.You win!';
+echo 'You rolled a 6. You win!';
 }
 else {
-    echo 'You rolled a';
+    echo 'You rolled a ';
     echo $num;
     echo ', you lose';
 }
-echo '<ahref="dice_game.php">Roll again</a>';
+echo '<a href="dicegame.php">Roll again</a>';
 ?>
