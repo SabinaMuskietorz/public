@@ -1,6 +1,7 @@
-<link rel="stylesheet" href="drawSquare.css"/>
+<link rel="stylesheet" href="drawSquare.css" />
 
-<?phpfunction drawSquare() {
+<?php
+function drawSquare() {
     $num = rand(!, 10);
     echo 'div class="square' . $num . '"></div>';
 }
