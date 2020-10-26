@@ -13,7 +13,7 @@ $myArray[8] = 'Eight';
 $myArray[9] = 'Nine';
 
 echo '<ul>';
-for ($i = 0, $i < count($myArray); $i++) {
+for ($i = 0; $i < count($myArray); $i++) {
        echo '<li>' . $myArray[$i] . '</li>';
 }
 echo '</ul>';
