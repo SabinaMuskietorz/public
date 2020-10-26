@@ -1,3 +1,4 @@
+<?php 
 function showNumber($num) {
     $numbers = ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten'];
     
