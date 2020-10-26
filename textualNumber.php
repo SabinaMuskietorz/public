@@ -1,5 +1,7 @@
 <?php 
 $myArray = [];
+//easier way 
+//$myArray = ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine'];
 
 $myArray[0] = 'Zero';
 $myArray[1] = 'One';
