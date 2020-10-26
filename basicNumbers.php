@@ -6,7 +6,7 @@ function showNumber($num) {
     $numAsString = strval($num);
     $firstDigit = $numAsString[0];
 
-    if ($num > 20) {
+    if ($num > 100) {
          return $basicNumbers[$firstDigit] . ' hundred and ' . showNumber($numAsString[1] . $numAsString[2]);
     }
     else if ($num > 20) {
