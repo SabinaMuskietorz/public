@@ -25,19 +25,19 @@ else {
             echo 'Computer wins!';
         }
         else if ($computer == 'rock' && $player == 'paper') {
-            echo = 'You win';
+            echo 'You win';
         }
         else if ($computer == 'paper' && $player == 'rock') {
-            echo = 'Computer wins';
+            echo 'Computer wins';
         } 
         else if ($computer == 'paper' && $player == 'scissors') {
-            echo = 'You win';
+            echo 'You win';
         }
         else if ($computer == 'scissors' && $player == 'paper') {
-            echo = 'Computer wins';
+            echo 'Computer wins';
         }
         else if ($computer == 'scissors' && $player == 'rock') {
-            echo = 'You win';
+            echo 'You win';
         }
     }
 }
