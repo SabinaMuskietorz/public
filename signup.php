@@ -71,7 +71,7 @@ else {
     <label for="terms">Do you accept the terms and conditions?</label>
     <input type="checkbox" value="yes" />
 
-    <input type="submit" value="submit" />
+    <input type="submit" name="Submit" value="submit" />
     </form>
     <?php
 }
