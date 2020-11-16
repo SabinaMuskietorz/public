@@ -69,7 +69,7 @@ else {
     </textarea>
 
     <label for="terms">Do you accept the terms and conditions?</label>
-    <input type="checkbox" value="yes" />
+    <input type="checkbox" name="Checkbox" value="yes" />
 
     <input type="submit" name="Submit" value="submit" />
     </form>
