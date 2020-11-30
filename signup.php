@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="signup.css">
+
+
+
 <?php
 $valid = false;
 
