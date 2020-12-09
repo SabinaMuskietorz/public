@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
 
 	echo 'Record Added';
 
-	echo '<p><a href="index.php">Back to list</a>';
+	echo '<p><a href="index1.php">Back to list</a>';
 }
 else {
 	?>

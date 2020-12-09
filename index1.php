@@ -32,7 +32,7 @@ else {
 }
 ?>
 
-	<form action="index.php" method="POST">
+	<form action="index1.php" method="POST">
 
 		<label>Search</label>
 		<input type="text" name="search" />

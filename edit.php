@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
 
 	echo '<p>Record Updated</p>';
 
-	echo '<p><a href="index.php">Back to list</a>';
+	echo '<p><a href="index1.php">Back to list</a>';
 }
 else {
 		$stmt = $pdo->prepare('SELECT * FROM person WHERE email = :email');
