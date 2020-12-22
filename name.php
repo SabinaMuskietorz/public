@@ -1,16 +1,16 @@
-<?php 
-
-if (isset($_GET['name'])) {
-    echo 'Hello' .' '. $_GET['name'];
+<?php
+session_start();
+if (isset($_POST['submit'])) {
+ $_SESSION['name'] = $_POST['name']
+ echo '<a href=”welcome.php”>Go to welcome.php</p>';
 }
+//The submit button was not pressed, show the log-in form
 else {
-    ?>
-    <form action="name.php" method="GET">
-    What is your name?
-    <input type="text" name="name" />
-    <input type="submit" value="Submit" name="submit" />
-    </form>
-
-    <?php
-}
 ?>
+<form action="login.php" method="POST">
+ <label>Enter your name: </label>
+ <input type="text" name="name" />
+ <input type="submit" name="submit" value="Submit" />
+</form>
+<?php
+}

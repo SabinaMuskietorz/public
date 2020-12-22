@@ -1,4 +1,4 @@
-<a href="addplatform.php">Add new platform</a>
+<a href="addplatform.php">Add new person</a>
 <?php
 
  $server = 'v.je';
@@ -7,16 +7,21 @@
 
  //The name of the schema we created earlier in MySQL workbench//If this schema does not exist you will get an error!
 
- $schema = 'CSY2028';
+ $schema = 'csy2028';
  $pdo = new PDO('mysql:dbname=' . $schema . ';host=' . $server, $username, $password,[ PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
 // If the form is submitted, search the database
 if (isset($_POST['submit'])) {
 
-	if ($_POST['field'] == 'idplatform' || $_POST['field'] == 'name') {
-		$stmt = $pdo->prepare('SELECT * FROM platform);
+	if ($_POST['field'] == 'firstname' || $_POST['field'] == 'surname' || $_POST['field'] == 'email') {
+		$stmt = $pdo->prepare('SELECT * FROM person WHERE ' . $_POST['field'] . ' = :search');
 
 
+		$values = [
+			'search' => $_POST['search']
+		];
+
+		$stmt->execute($values);
 
 	}
 }
@@ -27,7 +32,7 @@ else {
 }
 ?>
 
-	<form action="index1.php" method="POST">
+	<form action="indexplatforms.php" method="POST">
 
 		<label>Search</label>
 		<input type="text" name="search" />
@@ -55,4 +60,4 @@ foreach ($stmt as $row) {
 	echo '</li>';
 }
 echo '</ul>';
-?>
+
